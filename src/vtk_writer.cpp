@@ -184,6 +184,11 @@ struct triangle {
 
 void vtk_writer_write(const tool* tool, int step) {
 	auto segments = tool->get_segments();
+
+    if (segments.size() == 0) {
+        return;
+    }
+
 	assert(segments.size() == 4 || segments.size() == 5);
 
 	std::vector<triangle> triangles;
