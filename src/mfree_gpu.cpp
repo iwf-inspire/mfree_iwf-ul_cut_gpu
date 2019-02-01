@@ -160,7 +160,7 @@ int main(int argc, char *argv[]) {
 	double rake_angle = 10.;
 	double clearance_angle = 8.;
 	double fillet = 0.002;
-	double speed = 83.333328*1e-5;///500.*70.;
+	double speed = 83.333328*1e-5/500.*70.; //70m/min
 	int ny = 30;	//same effective resolution as LSDYNA sims in ruttimann 2012
 	double feed = 0.01;
 
