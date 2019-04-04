@@ -48,6 +48,6 @@ Orthogonal Metal Cutting, about 500'000 Particles, visualization using [SPLASH](
 
 * Matthias Röthlin, mroethli@ethz.ch
 * Hagen Klippel, hklippel@ethz.ch
-* Mohamadreza Afrasiabi, afrasiabi@ibk.baug.ethz.ch
+* Mohamadreza Afrasiabi, afrasiabi@ethz.ch
 
 **mfree_iwf-ul_cut_gpu** is free software and licensed under GPLv3
