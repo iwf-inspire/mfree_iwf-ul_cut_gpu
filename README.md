@@ -1,7 +1,7 @@
 # mfree_iwf-ul_cut_gpu
 
-This is the source code to the publication **Metal Cutting Simulations using Smoothed Particle
-Hydrodynamics on the GPU** to be published in the Journal of Advanced Manufacturing Technology ([JAMT](https://www.springer.com/engineering/industrial+management/journal/170)). The purpose of this package is to simulate orthogonal metal cutting operations using Smoothed Particle Hydrodynamics (SPH), parallelized on the GPU using CUDA. This package features some unique characteristics not available in commercial meshfree solvers like the ones available in LSDYNA or ABAQUS, including:
+This is the source code to the [publication](https://link.springer.com/article/10.1007/s00170-019-03410-0) **Metal Cutting Simulations using Smoothed Particle
+Hydrodynamics on the GPU** to published in the Journal of Advanced Manufacturing Technology ([JAMT](https://www.springer.com/engineering/industrial+management/journal/170)). The purpose of this package is to simulate orthogonal metal cutting operations using Smoothed Particle Hydrodynamics (SPH), parallelized on the GPU using CUDA. This package features some unique characteristics not available in commercial meshfree solvers like the ones available in LSDYNA or ABAQUS, including:
 
 * Stabilization of the solution using the complete array of techniques presented in Gray, J. P., J. J. Monaghan, and R. P. Swift. "SPH elastic dynamics." Computer methods in applied mechanics and engineering 190.49-50 (2001): 6641-6662. 
 * Thermal solver using either Particle Strength Exchange or the Brookshaw Approximation, including thermal contact between the tool and the workpiece. 
